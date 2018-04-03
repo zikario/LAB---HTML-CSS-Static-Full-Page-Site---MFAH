@@ -69,8 +69,10 @@ padding: 8px;
   margin: 0;
 }
 #collumz{
+  background-size: cover;
   width: 30%;
   flex-wrap: wrap;
+  position: relative;
 }
 #upev{
   margin-left: 20px;
@@ -97,4 +99,32 @@ h6{
   text-decoration: none;
   color: #0053ff;
   font-weight: bold;
+}
+#input{
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  max-width: 280px;
+  background: #4438de;
+  padding: 15px;
+}
+#searchic:hover{
+  cursor: pointer;
+}
+#iconsred{
+  display: flex;
+  flex-direction: column;
+}
+#red{
+  color: #ff0000;
+  margin-bottom: 12px;
+}
+.ictext{
+  display: flex;
+}
+.txtic{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 0;
+  margin-left: 5px;
 }
